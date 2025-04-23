@@ -1,2 +1,4 @@
-# FramePack-mac
-(macOS) Pinokio 1-Click Installer for FramePack
+# FramePackMac
+
+A pinokio script for https://github.com/brandon929/FramePack.git
+
