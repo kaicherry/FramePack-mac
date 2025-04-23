@@ -8,7 +8,7 @@ module.exports = {
         env: { },                   // Edit this to customize environment variables (see documentation)
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
-          "TOKENIZERS_PARALLELISM=false python demo_gradio.py",    // Edit with your custom commands
+          "TOKENIZERS_PARALLELISM=true python demo_gradio.py --fp32",    // Edit with your custom commands
         ],
         on: [{
           // The regular expression pattern to monitor.
