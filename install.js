@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone -b AvgPool3dToConv3d https://github.com/mdaiter/FramePack.git app",
+           "git clone https://github.com/brandon929/FramePack.git app",
         ]
       }
     },
