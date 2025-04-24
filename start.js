@@ -5,10 +5,10 @@ module.exports = {
       method: "shell.run",
       params: {
         venv: "env",                // Edit this to customize the venv folder path
-        env: { },                   // Edit this to customize environment variables (see documentation)
+        env: { "TOKENIZERS_PARALLELISM=true"},                   // Edit this to customize environment variables (see documentation)
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
-          "TOKENIZERS_PARALLELISM=true python demo_gradio.py --fp32",    // Edit with your custom commands
+          "python demo_gradio.py",    // Edit with your custom commands
         ],
         on: [{
           // The regular expression pattern to monitor.
