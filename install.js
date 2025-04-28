@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-           "git clone https://github.com/brandon929/FramePack.git app",
+           "git clone https://github.com/kaicherry/FramePack.git app",
         ]
       }
     },
